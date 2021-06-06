@@ -39,9 +39,11 @@ public class HomeFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         listReport = new ArrayList<>();
+
         listReport.add(new ReportModel("Report 1","Danger", "March 15 2021  13:23:10", "Sent By : John",R.drawable.ic_round_description_24));
         listReport.add(new ReportModel("Report 2","Danger", "March 18 2021  15:23:20", "Sent By : John",R.drawable.ic_round_description_24));
         listReport.add(new ReportModel("Report 3","Safe", "March 24 2021  23:29:10", "Sent By : John",R.drawable.ic_round_description_24));
+
 
     }
 

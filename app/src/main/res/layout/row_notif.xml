@@ -31,7 +31,7 @@
             android:textSize="16sp"
             android:textColor="#005575"
             android:textStyle="bold"
-            android:text="Notification Name"
+            android:text="@string/notification_name"
             />
 
         <TextView
@@ -46,7 +46,7 @@
             android:layout_marginTop="2dp"
             android:textSize="12sp"
             android:textColor="#000000"
-            android:text="Description"
+            android:text="@string/notification_description"
             />
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_marginTop="2dp"
             android:textSize="8sp"
             android:textColor="#000000"
-            android:text="DD MM YYYY  HH:MM:SS"
+            android:text="@string/notification_date"
             />
 
     </RelativeLayout>
